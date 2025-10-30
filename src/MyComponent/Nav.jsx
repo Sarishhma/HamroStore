@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { Top, sale, Bestseller, DotProducts, KBeauty } from './Top';
+import {  Bestseller, DotProducts, KBeauty} from './Top';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
