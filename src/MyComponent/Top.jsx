@@ -1,3 +1,4 @@
+import { KBeautyImages } from '../assets/imageImports';
 export const Top = [
     {
         id: 1,
@@ -288,7 +289,7 @@ export const DotProducts = [
 export const KBeauty = [
     {
         id: 1,
-        image: `${process.env.PUBLIC_URL}/KBeautyp/1.png`,
+        image: KBeautyImages[1],
         off: '10% off',
         price: 'Rs.2970',
         title: 'SKIN1004 Madagascar Centella Ampoule 100ml',
@@ -300,7 +301,7 @@ export const KBeauty = [
     },
     {
         id: 2,
-        image: `${process.env.PUBLIC_URL}/KBeautyp/2.png`,
+        image: KBeautyImages[2],
         off: '10% off',
         price: "Rs. 2,790",
         title: "DCOSRX Advanced Snail 92 All in one Cream - 100gm",
@@ -312,7 +313,7 @@ export const KBeauty = [
     },
     {
         id: 3,
-        image: `${process.env.PUBLIC_URL}/KBeautyp/3.png`,
+        image: KBeautyImages[3],
         off: '10% off',
         price: 'Rs.3713',
         title: "Round Lab Birch Juice Moisturizing Sun Cream SPF 50 PA ++++ 50ml",
@@ -324,7 +325,7 @@ export const KBeauty = [
     },
     {
         id: 4,
-        image: `${process.env.PUBLIC_URL}/KBeautyp/4.png`,
+        image: KBeautyImages[4],
         off: '12% off',
         price: 'Rs.2713',
         title: 'SKIN1004 Madagascar Centella Toning Toner 210ml',
@@ -336,7 +337,7 @@ export const KBeauty = [
     },
     {
         id: 5,
-        image: `${process.env.PUBLIC_URL}/KBeautyp/5.png`,
+        image: KBeautyImages[5],
         off: '12% off',
         price: 'Rs.3620',
         title: 'SKIN1004 Madagascar Centella Hyalu-Cica Water-Fit Sun Serum 50ml',
@@ -348,7 +349,7 @@ export const KBeauty = [
     },
     {
         id: 6,
-        image: `${process.env.PUBLIC_URL}/KBeautyp/6.png`,
+        image: KBeautyImages[6],
         off: '10% off',
         price: 'Rs.3520',
         title: 'ROUND LAB Birch Juice Moisturizing Sun Cushion SPF 50+ PA++++ 15g',
