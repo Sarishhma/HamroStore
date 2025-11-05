@@ -2,7 +2,6 @@
 import React from "react";
 import Nav from "../MyComponent/Nav";
 import BestSeller from "../MyComponent/BestSeller";
-import HeroBanter from "../MyComponent/HeroBanter";
 import Dot from "../MyComponent/Dot";
 import KBeauty from "../MyComponent/KBeauty";
 import Kspecial from "../MyComponent/Kspecial";
@@ -12,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Nav />
-      <HeroBanter />
+      
       <BestSeller />
       <Dot/>
       <KBeauty/>

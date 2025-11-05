@@ -24,7 +24,7 @@ export default function Kspecial() {
         </div>
 
         {/* Products Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
           {KbeautiSpecial.map((m) => (
             <div
               key={m.id}
@@ -32,11 +32,11 @@ export default function Kspecial() {
               className="group relative cursor-pointer bg-white/80 backdrop-blur-sm rounded-2xl p-4 border border-gray-200 shadow-lg transition-all duration-500 hover:scale-105 hover:shadow-xl hover:shadow-pink-500/20 hover:border-pink-400/50"
             >
               {/* Image Container */}
-              <div className="relative overflow-hidden rounded-xl mb-4">
+              <div className="relative overflow-hidden rounded-xl mb-4 w-full">
                 <img
                   src={m.image}
                   alt={m.brand}
-                  className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-105"
                 />
                 {/* Overlay Gradient */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
