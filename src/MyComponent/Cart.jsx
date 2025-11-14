@@ -73,7 +73,7 @@ export default function Cart() {
             <FontAwesomeIcon icon={faArrowLeft} />
             <span>Continue Shopping</span>
           </button>
-          <h1 className="text-3xl font-bold text-gray-900 items-center absolute left-1/2 transform -translate-x-1/2">Shopping Cart</h1>
+         
         
         </div>
 
