@@ -96,6 +96,7 @@ export default function Navigation() {
     <div>
       {/* Navigation - Fixed at top */}
       <nav className='bg-white shadow-md border-b border-gray-100 fixed top-0 left-0 right-0 z-50'>
+        
         <div className='flex justify-between items-center h-16 px-4 sm:px-6 max-w-7xl mx-auto'>
           <Link to='/' className='text-gray-800 font-bold text-xl hover:text-gray-600 transition-colors'>
            HamroStore
@@ -167,8 +168,8 @@ export default function Navigation() {
           </div>
         </div>
 
-        {/* Mobile Search Bar */}
-        <div className="md:hidden border-t border-gray-100">
+        {/* Mobile Search Bar - HIDDEN BY DEFAULT, shown only when needed */}
+        <div className="md:hidden border-t border-gray-100 hidden">
           <div className="relative px-4 py-3">
             <div className="relative">
               <input
@@ -221,7 +222,6 @@ export default function Navigation() {
           </div>
         </div>
       </nav>
-
     </div>
   );
 }
