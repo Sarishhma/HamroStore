@@ -7,11 +7,12 @@ import KBeauty from "../MyComponent/KBeauty";
 import Kspecial from "../MyComponent/Kspecial";
 import Logo from "../MyComponent/Logo";
 import Feeds from "../MyComponent/Feeds";
+import HeroBanter from "../MyComponent/HeroBanter";
 export default function Home() {
   return (
     <div>
       <Nav />
-      
+        <HeroBanter />
       <BestSeller />
       <Dot/>
       <KBeauty/>

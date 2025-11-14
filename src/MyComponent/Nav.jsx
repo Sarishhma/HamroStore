@@ -3,7 +3,6 @@ import { Link, useNavigate } from 'react-router-dom'
 import {  Bestseller, DotProducts, KBeauty} from './Top';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
-import HeroBanter from './HeroBanter';
 
 export default function Navigation() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -222,10 +221,6 @@ export default function Navigation() {
           </div>
         </div>
       </nav>
-
-<div className='pt-32 sm:pt-28 md:pt-20 mt-4'>
-  <HeroBanter />
-</div>
 
     </div>
   );
